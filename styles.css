@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+aside{
+    background: linear-gradient(45deg, black,darkred);
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
+    padding: 10px;
+    float: left;
+    position: fixed;
+}
+aside img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid darkred;
+    border-radius: 50%;
+    margin: 50px 0 20px 0;
+    box-shadow: 0 5px 10px black;
+}
+aside a{
+    display:block ;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 16px 20px;
+    font-family: 'Lobster Two', cursive;
+}
+aside a:hover{
+    border-radius: 0 10px 0 10px;
+    background: linear-gradient(45deg, darkred,black);
+    outline: none;
+}
+header{
+    font-size: 90px;
+    font-family: 'Girassol', cursive;
+    margin-left: 290px;
+    padding-top: 100px;
+}
+.address{
+    padding:0;
+    border:none;
+    margin: 0;
+    margin-left: 290px;
+    border-collapse: collapse;
+}
+.address p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: darkred;
+}
+fieldset{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 290px;
+}
+fieldset legend{
+    font-size: 25px;
+    font-family: 'Lobster Two', cursive;
+    color: darkred;
+}
+.experience {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: 35px;
+    box-shadow: 0 5px 10px darkred;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+    background: linear-gradient(45deg,darkred,black);
+}
+.experience h2 {
+    font-family: 'Lobster Two', cursive;
+    color: darkred;
+}
+.experience:hover{
+    transform: translateY(-20px );
+    cursor: pointer;
+}
+.experience button{
+    background:linear-gradient(45deg,black,darkred) ;
+    padding: 5px;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+.experience p{
+    color: whitesmoke;
+}
+.education{
+    background: linear-gradient(45deg,black,darkred);
+    display: block;
+    width: 850px;
+    height:100px;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    padding: 35px;
+    margin-left: 50px;
+    transition: all 0.5s;
+    margin:auto;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    box-shadow: 0 5px 10px darkred;
+
+
+}
+.education h2{
+    color: darkred;
+    font-family: 'Lobster Two', cursive;
+}
+.education p{
+    color: whitesmoke;
+}
+.education:hover{
+    transform: perspective(400px) rotateX(25deg);
+    cursor: pointer;
+}
+.skills{
+    background: linear-gradient(45deg,black,darkred);
+    display: block;
+    width: 850px;
+    height:200px;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    padding: 35px;
+    margin-left: 50px;
+    transition: all 0.5s;
+    margin:auto;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    box-shadow: 0 5px 10px darkred;
+
+}
+.skills h2{
+    color: darkred;
+    padding: 5px;
+    padding-top: 2px;
+    font-family: 'Lobster Two', cursive;
+}
+.skills i{
+    font-size: 50px;
+    color: darkred;
+    padding: 10px;
+}
+.skills p{
+    color: whitesmoke;
+}
+.skills:hover{
+    transform: rotate3d(1,1,1,-10deg);
+    cursor: pointer;
+}
+.travell{
+    background: linear-gradient(45deg,black,darkred);
+    display: block;
+    width: 850px;
+    height:200px;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    padding: 35px;
+    margin-left: 50px;
+    transition: all 0.5s;
+    margin:auto;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    box-shadow: 0 5px 10px darkred;
+
+}
+.travell h2{
+    color: darkred;
+    padding: 5px;
+    padding-top: 2px;
+    font-family: 'Lobster Two', cursive;
+}
+.travell p{
+    color: whitesmoke;
+}
+.travell i{
+    font-size: 50px;
+    color: darkred;
+    padding: 10px;
+}
+.travell:hover{
+    transform: perspective(400px) rotateY(-5deg);
+    cursor: pointer;
+}
+.certificate{
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 5px 10px darkred;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    background: linear-gradient(45deg,darkred,black);
+}
+.certificate p{
+    color: whitesmoke;
+}
+.certificate i{
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    border: 10px solid darkred;
+    width: 80px;
+    margin:10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    background-color: darkred;
+    margin: auto;
+    margin-top: -50px;
+}
+.certificate:hover{
+    transform: translateY(-20px );
+    cursor: pointer;
+    background: darkred;
+}
